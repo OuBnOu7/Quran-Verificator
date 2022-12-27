@@ -90,7 +90,7 @@ def p_aya_1_1(p):
     if toString(p) == "الحمد لله رب العالمين".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("الحمد لله رب العالمين","\n") 
-        output=Label(root,text='-Al-Aya est Syntaxiquement et Coraniquement Correct :\nAya : 1\nSourat : 1 \nالحمد لله رب العالمين',font=("arial",12),bg='#F9E79F',fg='black')
+        output=Label(root,text='الآية صحيحة نحويا و قرآنيا \n الآية  : 1\nالسورة : 1 \nالحمد لله رب العالمين',justify=CENTER,font=("arial",15),bg='#F9E79F',fg='black',width=30)
         output.place(x=80,y=250)
         #output.pack()
 
@@ -103,7 +103,7 @@ def p_aya_2_1(p):
     if toString(p) == "الرحمن الرحيم".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("الرحمن الرحيم","\n") 
-        output=Label(root,text='- Al-Aya est Syntaxiquement et Coraniquement Correct :\nAya : 2\nSourat : 1\n الرحمن الرحيم',font=("arial",12),bg='#F9E79F',fg='black')
+        output=Label(root,text=' :الآية صحيحة نحويا و قرآنيا:\n الآية  : 2\nالسورة : 1\n الرحمن الرحيم',justify=CENTER,font=("arial",15),bg='#F9E79F',fg='black',width=30)
         output.place(x=480,y=250)
         #output.pack()
 
@@ -116,7 +116,7 @@ def p_aya_3_1(p):
     if toString(p) == "مالك يوم الدين".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("مالك يوم الدين","\n") 
-        output=Label(root,text='- Al-Aya est Syntaxiquement et Coraniquement Correct:\nAya : 3 \nSourat : 1 \nمالك يوم الدين',font=("arial",12),bg='#F9E79F',fg='black')
+        output=Label(root,text='الآية صحيحة نحويا و قرآنيا\n الآية  : 3 \nالسورة : 1 \nمالك يوم الدين',justify=CENTER,font=("arial",15),bg='#F9E79F',fg='black',width=30)
         output.place(x=880,y=250)
         #output.pack()
 
@@ -129,7 +129,7 @@ def p_aya_4_1(p):
     if toString(p) == "إياك نعبد وإياك نستعين".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("إياك نعبد وإياك نستعين","\n") 
-        output=Label(root,text='- Al-Aya est Syntaxiquement et Coraniquement Correct :\nAya : 4\nSourat : 1 \n إياك نعبد وإياك نستعين',font=("arial",12),bg='#F9E79F',fg='black')
+        output=Label(root,text=': الآية صحيحة نحويا و قرآنيا\n الآية  : 4\nالسورة : 1 \n إياك نعبد وإياك نستعين',justify=CENTER,font=("arial",15),bg='#F9E79F',fg='black',width=30)
         output.place(x=80,y=350)
 
 def p_aya_5_1(p):
@@ -141,7 +141,7 @@ def p_aya_5_1(p):
     if toString(p) == "اهدنا الصراط المستقيم".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("اهدنا الصراط المستقيم","\n") 
-        output=Label(root,text='- Al-Aya est Syntaxiquement et Coraniquement Correct:\nAya : 5\nSourat : 1\n اهدنا الصراط المستقيم',font=("arial",12),bg='#F9E79F',fg='black')
+        output=Label(root,text=': الآية صحيحة نحويا و قرآنيا\n الآية  : 5\nالسورة : 1\n اهدنا الصراط المستقيم',justify=CENTER,font=("arial",15),bg='#F9E79F',fg='black',width=30)
         output.place(x=480,y=350)
         #output.pack()
 
@@ -154,7 +154,7 @@ def p_aya_6_1(p):
     if toString(p) == "صراط الذين أنعمت عليهم غير المغضوب عليهم ولا الضالين".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("صراط الذين أنعمت عليهم غير المغضوب عليهم ولا الضالين","\n")
-        output=Label(root,text='- Al-Aya est Syntaxiquement et Coraniquement Correct:\nAya : 6\nSourat : 1\n صراط الذين أنعمت عليهم غير المغضوب عليهم ولا الضالين',font=("arial",12),bg='#F9E79F',fg='black')
+        output=Label(root,text=': الآية صحيحة نحويا و قرآنيا\n الآية  : 6\nالسورة : 1\n صراط الذين أنعمت عليهم غير المغضوب عليهم \n ولا الضالين',font=("arial",15),bg='#F9E79F',fg='black',width=30,justify=CENTER)
         output.place(x=880,y=350)
         #output.pack() 
 
@@ -166,24 +166,24 @@ def p_aya_1_114(p):
     #Partie Syntaxique Ou On Va Verifier Si Le Verset Est Syntaxiquement Correcte
     'aya_1_114 : verbe_amr verbe_passe particule mot mot' 
     print("***********")
-    print('- Al-Aya est Syntaxiquement Correct :\nAya : 1 \nSourat : 114 \n')
+    print('- Al-Aya est Syntaxiquement Correct :\nAya : 1 \السورة : 114 \n')
     #Partie Semantique Ou On Va Verifier Si Le Verset Est Correct 
     if toString(p) == "قل أعوذ برب الناس".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("قل أعوذ برب الناس","\n") 
-        output=Label(root,text='-Al-Aya est Syntaxiquement et Coraniquement Correct :\nAya : 1\nSourat : 114 \n  قل أعوذ برب الناس ',font=("arial",12),bg='#F9E79F',fg='black')
+        output=Label(root,text='الآية صحيحة نحويا و قرآنيا\n الآية  : 1\nالسورة : 114 \n  قل أعوذ برب الناس ',font=("arial",15),bg='#F9E79F',fg='black',width=30,justify=CENTER)
         output.place(x=80,y=250)
 
 def p_aya_2_114(p):
     #Partie Syntaxique Ou On Va Verifier Si Le Verset Est Syntaxiquement Correcte
     'aya_2_114 : mot mot' 
     print("***********")
-    print('- Al-Aya est Syntaxiquement Correct :\nAya : 2 \nSourat : 114 \n') 
+    print('- Al-Aya est Syntaxiquement Correct :\nAya : 2 \السورة : 114 \n') 
     #Partie Semantique Ou On Va Verifier Si Le Verset Est Correct 
     if toString(p) == "ملك الناس".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("ملك الناس","\n") 
-        output=Label(root,text='- Al-Aya est Syntaxiquement et Coraniquement Correct :\nAya : 2\nSourat : 114\n  ملك الناس',font=("arial",12),bg='#F9E79F',fg='black')
+        output=Label(root,text=': الآية صحيحة نحويا و قرآنيا\n الآية  : 2\nالسورة : 114\n  ملك الناس',font=("arial",15),bg='#F9E79F',fg='black',width=30,justify=CENTER)
         output.place(x=480,y=250)
 
 def p_aya_3_114(p):
@@ -195,7 +195,7 @@ def p_aya_3_114(p):
     if toString(p) == "إله الناس".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("إله الناس","\n") 
-        output=Label(root,text='- Al-Aya est Syntaxiquement et Coraniquement Correct :\nAya : 3\nSourat : 114\n   إله الناس ',font=("arial",12),bg='#F9E79F',fg='black')
+        output=Label(root,text=': الآية صحيحة نحويا و قرآنيا\n الآية  : 3\nالسورة : 114\n   إله الناس ',font=("arial",15),bg='#F9E79F',fg='black',width=30,justify=CENTER)
         output.place(x=880,y=250)
 
 def p_aya_4_114(p):
@@ -207,7 +207,7 @@ def p_aya_4_114(p):
     if toString(p) == "من شر الوسواس الخناس".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("من شر الوسواس الخناس","\n") 
-        output=Label(root,text='- Al-Aya est Syntaxiquement et Coraniquement Correct :\nAya : 4\nSourat : 114\n من شر الوسواس الخناس',font=("arial",12),bg='#F9E79F',fg='black')
+        output=Label(root,text=': الآية صحيحة نحويا و قرآنيا\n الآية  : 4\nالسورة : 114\n من شر الوسواس الخناس',font=("arial",15),bg='#F9E79F',fg='black',width=30,justify=CENTER)
         output.place(x=80,y=350)
 
 def p_aya_5_114(p):
@@ -219,7 +219,7 @@ def p_aya_5_114(p):
     if toString(p) == "الذي يوسوس في صدور الناس".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("الذي يوسوس في صدور الناس","\n") 
-        output=Label(root,text='- Al-Aya est Syntaxiquement et Coraniquement Correct :\nAya : 5\nSourat : 114\n الذي يوسوس في صدور الناس ',font=("arial",12),bg='#F9E79F',fg='black')
+        output=Label(root,text=': الآية صحيحة نحويا و قرآنيا\n الآية  : 5\nالسورة : 114\n الذي يوسوس في صدور الناس ',font=("arial",15),bg='#F9E79F',fg='black',width=30,justify=CENTER)
         output.place(x=480,y=350)
 
 def p_aya_6_114(p):
@@ -231,7 +231,7 @@ def p_aya_6_114(p):
     if toString(p) == "من الجنة والناس".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("من الجنة والناس","\n")
-        output=Label(root,text='- Al-Aya est Syntaxiquement et Coraniquement Correct :\nAya : 6\nSourat : 114\nمن الجنة والناس',font=("arial",12),bg='#F9E79F',fg='black')
+        output=Label(root,text=': الآية صحيحة نحويا و قرآنيا\n الآية  : 6\nالسورة : 114\nمن الجنة والناس',font=("arial",15),bg='#F9E79F',fg='black',width=30,justify=CENTER)
         output.place(x=880,y=350)     
 
 #-----------------------------------------------------#
@@ -247,7 +247,7 @@ def p_aya_1_113(p):
     if toString(p) == "قل أعوذ برب الفلق".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("قل أعوذ برب الفلق","\n") 
-        output=Label(root,text='-Al-Aya est Syntaxiquement et Coraniquement Correct :\nAya : 1\nSourat : 113 \n قل أعوذ برب الفلق ',font=("arial",12),bg='#F9E79F',fg='black')
+        output=Label(root,text='الآية صحيحة نحويا و قرآنيا :\n الآية  : 1\nالسورة : 113 \n قل أعوذ برب الفلق ',font=("arial",15),bg='#F9E79F',fg='black',width=30,justify=CENTER)
         output.place(x=80,y=250) 
 
 def p_aya_2_113(p):
@@ -259,7 +259,7 @@ def p_aya_2_113(p):
     if toString(p) == "من شر ما خلق".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("من شر ما خلق","\n") 
-        output=Label(root,text='-Al-Aya est Syntaxiquement et Coraniquement Correct :\nAya : 2\nSourat : 113 \n  من شر ما خلق ',font=("arial",12),bg='#F9E79F',fg='black')
+        output=Label(root,text='الآية صحيحة نحويا و قرآنيا :\n الآية  : 2\nالسورة : 113 \n  من شر ما خلق ',font=("arial",15),bg='#F9E79F',fg='black',width=30,justify=CENTER)
         output.place(x=480,y=250)  
 
 def p_aya_3_113(p):
@@ -271,7 +271,7 @@ def p_aya_3_113(p):
     if toString(p) == "ومن شر غاسق إذا وقب".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("ومن شر غاسق إذا وقب","\n") 
-        output=Label(root,text='-Al-Aya est Syntaxiquement et Coraniquement Correct :\nAya : 3\nSourat : 113 \n  ومن شر غاسق إذا وقب ',font=("arial",12),bg='#F9E79F',fg='black')
+        output=Label(root,text='الآية صحيحة نحويا و قرآنيا :\n الآية  : 3\nالسورة : 113 \n  ومن شر غاسق إذا وقب ',font=("arial",15),bg='#F9E79F',fg='black',width=30,justify=CENTER)
         output.place(x=880,y=250)  
 
 def p_aya_4_113(p):
@@ -283,7 +283,7 @@ def p_aya_4_113(p):
     if toString(p) == "ومن شر النفاثات في العقد".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("ومن شر النفاثات في العقد","\n")  
-        output=Label(root,text='-Al-Aya est Syntaxiquement et Coraniquement Correct :\nAya : 4\nSourat : 113 \n  ومن شر النفاثات في العقد',font=("arial",12),bg='#F9E79F',fg='black')
+        output=Label(root,text='الآية صحيحة نحويا و قرآنيا :\n الآية  : 4\nالسورة : 113 \n  ومن شر النفاثات في العقد',font=("arial",15),bg='#F9E79F',fg='black',width=30,justify=CENTER)
         output.place(x=80,y=350) 
 
 def p_aya_5_113(p):
@@ -295,7 +295,7 @@ def p_aya_5_113(p):
     if toString(p) == "ومن شر حاسد إذا حسد".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("ومن شر حاسد إذا حسد","\n")
-        output=Label(root,text='-Al-Aya est Syntaxiquement et Coraniquement Correct :\nAya : 5\nSourat : 113 \n  ومن شر حاسد إذا حسد',font=("arial",12),bg='#F9E79F',fg='black')
+        output=Label(root,text='الآية صحيحة نحويا و قرآنيا :\n الآية  : 5\nالسورة : 113 \n  ومن شر حاسد إذا حسد',font=("arial",15),bg='#F9E79F',fg='black',width=30,justify=CENTER)
         output.place(x=480,y=350)   
 
 #-----------------------------------------------------#
@@ -311,7 +311,7 @@ def p_aya_1_111(p):
     if toString(p) == "تبت يدا أبي لهب وتب".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("تبت يدا أبي لهب وتب","\n")  
-        output=Label(root,text='-Al-Aya est Syntaxiquement et Coraniquement Correct :\nAya : 1\nSourat : 111 \n تبت يدا أبي لهب وتب ',font=("arial",12),bg='#F9E79F',fg='black')
+        output=Label(root,text='الآية صحيحة نحويا و قرآنيا :\n الآية  : 1\nالسورة : 111 \n تبت يدا أبي لهب وتب ',font=("arial",15),bg='#F9E79F',fg='black',width=30,justify=CENTER)
         output.place(x=80,y=250)  
 
 def p_aya_2_111(p):
@@ -323,7 +323,7 @@ def p_aya_2_111(p):
     if toString(p) == "ما أغنى عنه ماله وما كسب".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("ما أغنى عنه ماله وما كسب","\n") 
-        output=Label(root,text='-Al-Aya est Syntaxiquement et Coraniquement Correct :\nAya : 2\nSourat : 111 \n ما أغنى عنه ماله وما كسب',font=("arial",12),bg='#F9E79F',fg='black')
+        output=Label(root,text='الآية صحيحة نحويا و قرآنيا :\n الآية  : 2\nالسورة : 111 \n ما أغنى عنه ماله وما كسب',font=("arial",15),bg='#F9E79F',fg='black',width=30,justify=CENTER)
         output.place(x=480,y=250)  
 
 def p_aya_3_111(p):
@@ -335,7 +335,7 @@ def p_aya_3_111(p):
     if toString(p) == "سيصلى نارا ذات لهب".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("سيصلى نارا ذات لهب","\n") 
-        output=Label(root,text='-Al-Aya est Syntaxiquement et Coraniquement Correct :\nAya : 3\nSourat : 111 \n  سيصلى نارا ذات لهب',font=("arial",12),bg='#F9E79F',fg='black')
+        output=Label(root,text='الآية صحيحة نحويا و قرآنيا :\n الآية  : 3\nالسورة : 111 \n  سيصلى نارا ذات لهب',font=("arial",15),bg='#F9E79F',fg='black',width=30,justify=CENTER)
         output.place(x=880,y=250) 
 
 def p_aya_4_111(p):
@@ -347,37 +347,31 @@ def p_aya_4_111(p):
     if toString(p) == "وامرأته حمالة الحطب".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("وامرأته حمالة الحطب","\n")  
-        output=Label(root,text='-Al-Aya est Syntaxiquement et Coraniquement Correct :\nAya : 4\nSourat : 111 \nوامرأته حمالة الحطب',font=("arial",12),bg='#F9E79F',fg='black')
+        output=Label(root,text='الآية صحيحة نحويا و قرآنيا :\n الآية  : 4\nالسورة : 111 \nوامرأته حمالة الحطب',font=("arial",15),bg='#F9E79F',fg='black',width=30,justify=CENTER)
         output.place(x=80,y=350)
-    else:
-        print("- Al-Aya Est Coraniquement INCORRECTE")
-        print("Correction :")
-        print("وامرأته حمالة الحطب","\n")
-        output=Label(root,text='-Al-Aya est Syntaxiquement et Coraniquement Correct :\nAya : 4\nSourat : 111 \nوامرأته حمالة الحطب',font=("arial",12),bg='#F9E79F',fg='#053339')
-        output.place(x=80,y=350)       
 
 def p_aya_5_111(p):
     #Partie Syntaxique Ou On Va Verifier Si Le Verset Est Syntaxiquement Correcte
     'aya_5_111 : particule mot pronom mot particule mot' 
     print("***********")
-    print('- Al-Aya est Syntaxiquement Correct :\nAya : 5 \nSourat : 111')  
+    print('- Al-Aya est Syntaxiquement Correct :\n الآية  : 5 \nSourat : 111')  
     #Partie Semantique Ou On Va Verifier Si Le Verset Est Correct 
     if toString(p) == "في جيد ها حبل من مسد".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("في جيد ها حبل من مسد","\n")
-        output=Label(root,text='-Al-Aya est Syntaxiquement et Coraniquement Correct :\nAya : 5\nSourat : 111 \nفي جيد ها حبل من مسد',font=("arial",12),bg='#F9E79F',fg='black')
+        output=Label(root,text='الآية صحيحة نحويا و قرآنيا :\nالآية : 5\nالسورة : 111 \nفي جيد ها حبل من مسد',font=("arial",15),bg='#F9E79F',fg='black',width=30,justify=CENTER)
         output.place(x=480,y=350)
     else:
         print("- Al-Aya Est Coraniquement INCORRECTE")
         print("Correction :")
         print("في جيد ها حبل من مسد","\n")
-        output=Label(root,text='-Al-Aya est Syntaxiquement et Coraniquement Correct :\nAya : 5\nSourat : 111 \nفي جيد ها حبل من مسد',font=("arial",12),bg='#F9E79F',fg='#053339')
+        output=Label(root,text='الآية صحيحة نحويا و قرآنيا :\nAya : 5\nالسورة : 111 \nفي جيد ها حبل من مسد',font=("arial",15),bg='#F9E79F',fg='#053339',width=30,justify=CENTER)
         output.place(x=480,y=350)    
 
 def p_error(p):
     print("***********")
     print("Erreur Coranique : ",p)
-    output=Label(root,text='-Une-Aya est Coraniquement Incorrect\n et son numero est le numero de la position vide  ',font=("arial",12),bg='red',fg='black')
+    output=Label(root,text='أعد كتابة الآية غير الظاهرة بشكل صحيح\n ',font=("arial",15),bg='red',fg='black',width=30,justify=CENTER)
     output.place(x=480,y=180)
 
 
