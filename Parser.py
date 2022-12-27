@@ -74,7 +74,7 @@ def p_sourat_almassad(p):
 
 def p_aya_1_1(p):
     #Partie Syntaxique Ou On Va Verifier Si Le Verset Est Syntaxiquement Correcte
-    'aya_1_1 : mot particule Ism_Jalala mot mot' 
+    'aya_1_1 : nom particule Ism_Jalala nom nom' 
     print("*****************************")
     print('- Al-Aya est Syntaxiquement Correct :\nAya : 1 \nSourat : 1 \n')
     #Partie Semantique Ou On Va Verifier Si Le Verset Est Correct 
@@ -102,7 +102,7 @@ def p_aya_2_1(p):
 
 def p_aya_3_1(p):
     #Partie Syntaxique Ou On Va Verifier Si Le Verset Est Syntaxiquement Correcte
-    'aya_3_1 : mot mot mot' 
+    'aya_3_1 : nom nom nom' 
     print("*****************************")
     print('- Al-Aya est Syntaxiquement Correct :\nAya : 3 \nSourat : 1 \n') 
     #Partie Semantique Ou On Va Verifier Si Le Verset Est Correct 
@@ -116,7 +116,7 @@ def p_aya_3_1(p):
 
 def p_aya_4_1(p):
     #Partie Syntaxique Ou On Va Verifier Si Le Verset Est Syntaxiquement Correcte
-    'aya_4_1 : mot verbe_present particule mot verbe_passe' 
+    'aya_4_1 : nom verbe_present particule nom verbe_passe' 
     print("*****************************")
     print('- Al-Aya est Syntaxiquement Correct :\nAya : 4 \nSourat : 1 \n') 
     #Partie Semantique Ou On Va Verifier Si Le Verset Est Correct 
@@ -130,7 +130,7 @@ def p_aya_4_1(p):
 
 def p_aya_5_1(p):
     #Partie Syntaxique Ou On Va Verifier Si Le Verset Est Syntaxiquement Correcte
-    'aya_5_1 : verbe_amr mot mot' 
+    'aya_5_1 : verbe_amr nom nom' 
     print("*****************************")
     print('- Al-Aya est Syntaxiquement Correct :\nAya : 5 \nSourat : 1 \n') 
     #Partie Semantique Ou On Va Verifier Si Le Verset Est Correct 
@@ -144,7 +144,7 @@ def p_aya_5_1(p):
 
 def p_aya_6_1(p):
     #Partie Syntaxique Ou On Va Verifier Si Le Verset Est Syntaxiquement Correcte
-    'aya_6_1 : mot mot verbe_passe particule pronom mot mot particule pronom particule mot mot' 
+    'aya_6_1 : nom nom verbe_passe particule pronom nom nom particule pronom particule nom nom' 
     print("*****************************")
     print('- Al-Aya est Syntaxiquement Correct :\nAya : 6 \nSourat : 1 \n') 
     #Partie Semantique Ou On Va Verifier Si Le Verset Est Correct 
@@ -162,7 +162,7 @@ def p_aya_6_1(p):
 
 def p_aya_1_114(p):
     #Partie Syntaxique Ou On Va Verifier Si Le Verset Est Syntaxiquement Correcte
-    'aya_1_114 : verbe_amr verbe_passe particule mot mot' 
+    'aya_1_114 : verbe_amr verbe_passe particule nom nom' 
     print("*****************************")
     print('- Al-Aya est Syntaxiquement Correct :\nAya : 1 \nSourat : 114 \n')
     #Partie Semantique Ou On Va Verifier Si Le Verset Est Correct 
@@ -176,7 +176,7 @@ def p_aya_1_114(p):
 
 def p_aya_2_114(p):
     #Partie Syntaxique Ou On Va Verifier Si Le Verset Est Syntaxiquement Correcte
-    'aya_2_114 : mot mot' 
+    'aya_2_114 : nom nom' 
     print("*****************************")
     print('- Al-Aya est Syntaxiquement Correct :\nAya : 2 \nSourat : 114 \n') 
     #Partie Semantique Ou On Va Verifier Si Le Verset Est Correct 
@@ -190,7 +190,7 @@ def p_aya_2_114(p):
 
 def p_aya_3_114(p):
     #Partie Syntaxique Ou On Va Verifier Si Le Verset Est Syntaxiquement Correcte
-    'aya_3_114 : Ism_Jalala mot'
+    'aya_3_114 : Ism_Jalala nom'
     print("*****************************")
     print('- Al-Aya est Syntaxiquement Correct :\nAya : 3 \nSourat : 114 \n') 
     #Partie Semantique Ou On Va Verifier Si Le Verset Est Correct 
@@ -204,7 +204,7 @@ def p_aya_3_114(p):
 
 def p_aya_4_114(p):
     #Partie Syntaxique Ou On Va Verifier Si Le Verset Est Syntaxiquement Correcte
-    'aya_4_114 : particule mot mot mot ' 
+    'aya_4_114 : particule nom nom nom ' 
     print("*****************************")
     print('- Al-Aya est Syntaxiquement Correct :\nAya : 4 \nSourat : 114 \n') 
     #Partie Semantique Ou On Va Verifier Si Le Verset Est Correct 
@@ -218,7 +218,7 @@ def p_aya_4_114(p):
 
 def p_aya_5_114(p):
     #Partie Syntaxique Ou On Va Verifier Si Le Verset Est Syntaxiquement Correcte
-    'aya_5_114 : pronom_r verbe_passe particule mot mot' 
+    'aya_5_114 : pronom_r verbe_passe particule nom nom' 
     print("*****************************")
     print('- Al-Aya est Syntaxiquement Correct :\nAya : 5 \nSourat : 114 \n') 
     #Partie Semantique Ou On Va Verifier Si Le Verset Est Correct 
@@ -232,7 +232,7 @@ def p_aya_5_114(p):
 
 def p_aya_6_114(p):
     #Partie Syntaxique Ou On Va Verifier Si Le Verset Est Syntaxiquement Correcte
-    'aya_6_114 : particule mot particule mot' 
+    'aya_6_114 : particule nom particule nom' 
     print("*****************************")
     print('- Al-Aya est Syntaxiquement Correct :\nAya : 6 \nSourat : 114 \n') 
     #Partie Semantique Ou On Va Verifier Si Le Verset Est Correct 
@@ -250,7 +250,7 @@ def p_aya_6_114(p):
     
 def p_aya_1_113(p):
     #Partie Syntaxique Ou On Va Verifier Si Le Verset Est Syntaxiquement Correcte
-    'aya_1_113 : verbe_amr verbe_passe particule mot mot' 
+    'aya_1_113 : verbe_amr verbe_passe particule nom nom' 
     print("*****************************")
     print('- Al-Aya est Syntaxiquement Correct :\nAya : 1 \nSourat : 113 \n')
     #Partie Semantique Ou On Va Verifier Si Le Verset Est Correct 
@@ -264,7 +264,7 @@ def p_aya_1_113(p):
 
 def p_aya_2_113(p):
     #Partie Syntaxique Ou On Va Verifier Si Le Verset Est Syntaxiquement Correcte
-    'aya_2_113 : particule mot negation verbe_passe' 
+    'aya_2_113 : particule nom negation verbe_passe' 
     print("*****************************")
     print('- Al-Aya est Syntaxiquement Correct :\nAya : 2 \nSourat : 113 \n') 
     #Partie Semantique Ou On Va Verifier Si Le Verset Est Correct 
@@ -278,7 +278,7 @@ def p_aya_2_113(p):
 
 def p_aya_3_113(p):
     #Partie Syntaxique Ou On Va Verifier Si Le Verset Est Syntaxiquement Correcte
-    'aya_3_113 : particule particule mot mot mot verbe_passe'
+    'aya_3_113 : particule particule nom nom nom verbe_passe'
     print("*****************************")
     print('- Al-Aya est Syntaxiquement Correct :\nAya : 3 \nSourat : 113 \n') 
     #Partie Semantique Ou On Va Verifier Si Le Verset Est Correct 
@@ -292,7 +292,7 @@ def p_aya_3_113(p):
 
 def p_aya_4_113(p):
     #Partie Syntaxique Ou On Va Verifier Si Le Verset Est Syntaxiquement Correcte
-    'aya_4_113 : particule particule mot mot particule mot ' 
+    'aya_4_113 : particule particule nom nom particule nom ' 
     print("*****************************")
     print('- Al-Aya est Syntaxiquement Correct :\nAya : 4 \nSourat : 113 \n') 
     #Partie Semantique Ou On Va Verifier Si Le Verset Est Correct 
@@ -306,7 +306,7 @@ def p_aya_4_113(p):
 
 def p_aya_5_113(p):
     #Partie Syntaxique Ou On Va Verifier Si Le Verset Est Syntaxiquement Correcte
-    'aya_5_113 : particule particule mot mot mot verbe_passe' 
+    'aya_5_113 : particule particule nom nom nom verbe_passe' 
     print("*****************************")
     print('- Al-Aya est Syntaxiquement Correct :\nAya : 5 \nSourat : 113 \n') 
     #Partie Semantique Ou On Va Verifier Si Le Verset Est Correct 
@@ -324,7 +324,7 @@ def p_aya_5_113(p):
 
 def p_aya_1_111(p):
     #Partie Syntaxique Ou On Va Verifier Si Le Verset Est Syntaxiquement Correcte
-    'aya_1_111 : verbe_passe mot mot mot particule verbe_passe' 
+    'aya_1_111 : verbe_passe nom nom nom particule verbe_passe' 
     print("*****************************")
     print('- Al-Aya est Syntaxiquement Correct :\nAya : 1 \nSourat : 111 \n')
     #Partie Semantique Ou On Va Verifier Si Le Verset Est Correct 
@@ -338,7 +338,7 @@ def p_aya_1_111(p):
 
 def p_aya_2_111(p):
     #Partie Syntaxique Ou On Va Verifier Si Le Verset Est Syntaxiquement Correcte
-    'aya_2_111 : negation verbe_passe particule pronom mot pronom particule negation verbe_passe' 
+    'aya_2_111 : negation verbe_passe particule pronom nom pronom particule negation verbe_passe' 
     print("*****************************")
     print('- Al-Aya est Syntaxiquement Correct :\nAya : 2 \nSourat : 111 \n') 
     #Partie Semantique Ou On Va Verifier Si Le Verset Est Correct 
@@ -352,7 +352,7 @@ def p_aya_2_111(p):
 
 def p_aya_3_111(p):
     #Partie Syntaxique Ou On Va Verifier Si Le Verset Est Syntaxiquement Correcte
-    'aya_3_111 : verbe_present mot mot mot'
+    'aya_3_111 : verbe_present nom nom nom'
     print("*****************************")
     print('- Al-Aya est Syntaxiquement Correct :\nAya : 3 \nSourat : 111 \n') 
     #Partie Semantique Ou On Va Verifier Si Le Verset Est Correct 
@@ -366,7 +366,7 @@ def p_aya_3_111(p):
 
 def p_aya_4_111(p):
     #Partie Syntaxique Ou On Va Verifier Si Le Verset Est Syntaxiquement Correcte
-    'aya_4_111 : particule mot pronom mot mot ' 
+    'aya_4_111 : particule nom pronom nom nom ' 
     print("*****************************")
     print('- Al-Aya est Syntaxiquement Correct :\nAya : 4 \nSourat : 111') 
     #Partie Semantique Ou On Va Verifier Si Le Verset Est Correct 
@@ -380,7 +380,7 @@ def p_aya_4_111(p):
 
 def p_aya_5_111(p):
     #Partie Syntaxique Ou On Va Verifier Si Le Verset Est Syntaxiquement Correcte
-    'aya_5_111 : particule mot pronom mot particule mot' 
+    'aya_5_111 : particule nom pronom nom particule nom' 
     print("*****************************")
     print('- Al-Aya est Syntaxiquement Correct :\nAya : 5 \nSourat : 111')  
     #Partie Semantique Ou On Va Verifier Si Le Verset Est Correct 

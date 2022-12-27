@@ -3,7 +3,7 @@ import ply.lex as lex
  
  # List of token names.   This is always required
 tokens = (
-   'mot',
+   'nom',
    'verbe_amr','verbe_passe','verbe_present',
    'Ism_Jalala',
    'pronom','pronom_d','pronom_r',"nom_defini",'particule','negation'
@@ -18,7 +18,7 @@ t_verbe_present    = r'نعبد|سيصلى'
 t_pronom_d = r'هَذا|ذَلِكَ|هَذِهِ | تِلْكَ|أولئك '
 t_pronom_r = r'اللاتِ | اللاتي|الذي| اللاءِ| اللائي| مَنْ| ما| ذو| ذا| الّذينَ| الّذونَ| الّذينَ| الّذي| الّتي| اللتَينِ'
 
-def t_mot(t):
+def t_nom(t):
     r'شر |الوسواس |الخناس|أحد|لا|الضالين| غير| المغضوب|كفوا|الذين|صراط| الذين| الصراط |المستقيم|مالك| يوم |الدين|العالمين|رب|إياك|صدور|الحمد|ملك|مال|الجنة|الناس|غاسق|الفلق|العقد|يدا|أبي|لهب|نارا|ذات|لهب|امرأت|حمالة|الحطب|جيد|حاسد|النفاثات|حبل|مسد|إذا|سم'
     return t 
 

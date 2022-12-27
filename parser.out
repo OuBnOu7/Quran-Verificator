@@ -40,41 +40,43 @@ Rule 29    sourat_alfatiha -> aya_1_1 aya_2_1 aya_3_1 aya_4_1 aya_5_1 aya_6_1
 Rule 30    sourat_alnass -> aya_1_114 aya_2_114 aya_3_114 aya_4_114 aya_5_114 aya_6_114
 Rule 31    sourat_alfalak -> aya_1_113 aya_2_113 aya_3_113 aya_4_113 aya_5_113
 Rule 32    sourat_almassad -> aya_1_111 aya_2_111 aya_3_111 aya_4_111 aya_5_111
-Rule 33    aya_1_1 -> mot particule Ism_Jalala mot mot
+Rule 33    aya_1_1 -> nom particule Ism_Jalala nom nom
 Rule 34    aya_2_1 -> Ism_Jalala Ism_Jalala
-Rule 35    aya_3_1 -> mot mot mot
-Rule 36    aya_4_1 -> mot verbe_present particule mot verbe_passe
-Rule 37    aya_5_1 -> verbe_amr mot mot
-Rule 38    aya_6_1 -> mot mot verbe_passe particule pronom mot mot particule pronom particule mot mot
-Rule 39    aya_1_114 -> verbe_amr verbe_passe particule mot mot
-Rule 40    aya_2_114 -> mot mot
-Rule 41    aya_3_114 -> Ism_Jalala mot
-Rule 42    aya_4_114 -> particule mot mot mot
-Rule 43    aya_5_114 -> pronom_r verbe_passe particule mot mot
-Rule 44    aya_6_114 -> particule mot particule mot
-Rule 45    aya_1_113 -> verbe_amr verbe_passe particule mot mot
-Rule 46    aya_2_113 -> particule mot negation verbe_passe
-Rule 47    aya_3_113 -> particule particule mot mot mot verbe_passe
-Rule 48    aya_4_113 -> particule particule mot mot particule mot
-Rule 49    aya_5_113 -> particule particule mot mot mot verbe_passe
-Rule 50    aya_1_111 -> verbe_passe mot mot mot particule verbe_passe
-Rule 51    aya_4_111 -> particule mot pronom mot mot
-Rule 52    aya_5_111 -> particule mot pronom mot particule mot
+Rule 35    aya_3_1 -> nom nom nom
+Rule 36    aya_4_1 -> nom verbe_present particule nom verbe_passe
+Rule 37    aya_5_1 -> verbe_amr nom nom
+Rule 38    aya_6_1 -> nom nom verbe_passe particule pronom nom nom particule pronom particule nom nom
+Rule 39    aya_1_114 -> verbe_amr verbe_passe particule nom nom
+Rule 40    aya_2_114 -> nom nom
+Rule 41    aya_3_114 -> Ism_Jalala nom
+Rule 42    aya_4_114 -> particule nom nom nom
+Rule 43    aya_5_114 -> pronom_r verbe_passe particule nom nom
+Rule 44    aya_6_114 -> particule nom particule nom
+Rule 45    aya_1_113 -> verbe_amr verbe_passe particule nom nom
+Rule 46    aya_2_113 -> particule nom negation verbe_passe
+Rule 47    aya_3_113 -> particule particule nom nom nom verbe_passe
+Rule 48    aya_4_113 -> particule particule nom nom particule nom
+Rule 49    aya_5_113 -> particule particule nom nom nom verbe_passe
+Rule 50    aya_1_111 -> verbe_passe nom nom nom particule verbe_passe
+Rule 51    aya_2_111 -> negation verbe_passe particule pronom nom pronom particule negation verbe_passe
+Rule 52    aya_3_111 -> verbe_present nom nom nom
+Rule 53    aya_4_111 -> particule nom pronom nom nom
+Rule 54    aya_5_111 -> particule nom pronom nom particule nom
 
 Terminals, with rules where they appear
 
 Ism_Jalala           : 33 34 34 41
 error                : 
-mot                  : 33 33 33 35 35 35 36 36 37 37 38 38 38 38 38 38 39 39 40 40 41 42 42 42 43 43 44 44 45 45 46 47 47 47 48 48 48 49 49 49 50 50 50 51 51 51 52 52 52
-negation             : 46
+negation             : 46 51 51
+nom                  : 33 33 33 35 35 35 36 36 37 37 38 38 38 38 38 38 39 39 40 40 41 42 42 42 43 43 44 44 45 45 46 47 47 47 48 48 48 49 49 49 50 50 50 51 52 52 52 53 53 53 54 54 54
 nom_defini           : 
-particule            : 33 36 38 38 38 39 42 43 44 44 45 46 47 47 48 48 48 49 49 50 51 52 52
-pronom               : 38 38 51 52
+particule            : 33 36 38 38 38 39 42 43 44 44 45 46 47 47 48 48 48 49 49 50 51 51 53 54 54
+pronom               : 38 38 51 51 53 54
 pronom_d             : 
 pronom_r             : 43
 verbe_amr            : 37 39 45
-verbe_passe          : 36 38 39 43 45 46 47 49 50 50
-verbe_present        : 36
+verbe_passe          : 36 38 39 43 45 46 47 49 50 50 51 51
+verbe_present        : 36 52
 
 Nonterminals, with rules where they appear
 
@@ -108,3 +110,1353 @@ sourat_alfatiha      : 26
 sourat_almassad      : 28
 sourat_alnass        : 25
 
+Parsing method: LALR
+
+state 0
+
+    (0) S' -> . s
+    (1) s -> . aya
+    (2) s -> . sourat
+    (3) aya -> . aya_1_1
+    (4) aya -> . aya_2_1
+    (5) aya -> . aya_3_1
+    (6) aya -> . aya_4_1
+    (7) aya -> . aya_5_1
+    (8) aya -> . aya_6_1
+    (9) aya -> . aya_1_114
+    (10) aya -> . aya_2_114
+    (11) aya -> . aya_3_114
+    (12) aya -> . aya_4_114
+    (13) aya -> . aya_5_114
+    (14) aya -> . aya_6_114
+    (15) aya -> . aya_1_113
+    (16) aya -> . aya_2_113
+    (17) aya -> . aya_3_113
+    (18) aya -> . aya_4_113
+    (19) aya -> . aya_5_113
+    (20) aya -> . aya_1_111
+    (21) aya -> . aya_2_111
+    (22) aya -> . aya_3_111
+    (23) aya -> . aya_4_111
+    (24) aya -> . aya_5_111
+    (25) sourat -> . sourat_alnass
+    (26) sourat -> . sourat_alfatiha
+    (27) sourat -> . sourat_alfalak
+    (28) sourat -> . sourat_almassad
+    (33) aya_1_1 -> . nom particule Ism_Jalala nom nom
+    (34) aya_2_1 -> . Ism_Jalala Ism_Jalala
+    (35) aya_3_1 -> . nom nom nom
+    (36) aya_4_1 -> . nom verbe_present particule nom verbe_passe
+    (37) aya_5_1 -> . verbe_amr nom nom
+    (38) aya_6_1 -> . nom nom verbe_passe particule pronom nom nom particule pronom particule nom nom
+    (39) aya_1_114 -> . verbe_amr verbe_passe particule nom nom
+    (40) aya_2_114 -> . nom nom
+    (41) aya_3_114 -> . Ism_Jalala nom
+    (42) aya_4_114 -> . particule nom nom nom
+    (43) aya_5_114 -> . pronom_r verbe_passe particule nom nom
+    (44) aya_6_114 -> . particule nom particule nom
+    (45) aya_1_113 -> . verbe_amr verbe_passe particule nom nom
+    (46) aya_2_113 -> . particule nom negation verbe_passe
+    (47) aya_3_113 -> . particule particule nom nom nom verbe_passe
+    (48) aya_4_113 -> . particule particule nom nom particule nom
+    (49) aya_5_113 -> . particule particule nom nom nom verbe_passe
+    (50) aya_1_111 -> . verbe_passe nom nom nom particule verbe_passe
+    (51) aya_2_111 -> . negation verbe_passe particule pronom nom pronom particule negation verbe_passe
+    (52) aya_3_111 -> . verbe_present nom nom nom
+    (53) aya_4_111 -> . particule nom pronom nom nom
+    (54) aya_5_111 -> . particule nom pronom nom particule nom
+    (30) sourat_alnass -> . aya_1_114 aya_2_114 aya_3_114 aya_4_114 aya_5_114 aya_6_114
+    (29) sourat_alfatiha -> . aya_1_1 aya_2_1 aya_3_1 aya_4_1 aya_5_1 aya_6_1
+    (31) sourat_alfalak -> . aya_1_113 aya_2_113 aya_3_113 aya_4_113 aya_5_113
+    (32) sourat_almassad -> . aya_1_111 aya_2_111 aya_3_111 aya_4_111 aya_5_111
+
+    nom             shift and go to state 30
+    Ism_Jalala      shift and go to state 32
+    verbe_amr       shift and go to state 35
+    particule       shift and go to state 31
+    pronom_r        shift and go to state 36
+    verbe_passe     shift and go to state 34
+    negation        shift and go to state 37
+    verbe_present   shift and go to state 33
+
+    s                              shift and go to state 1
+    aya                            shift and go to state 2
+    sourat                         shift and go to state 3
+    aya_1_1                        shift and go to state 4
+    aya_2_1                        shift and go to state 5
+    aya_3_1                        shift and go to state 6
+    aya_4_1                        shift and go to state 7
+    aya_5_1                        shift and go to state 8
+    aya_6_1                        shift and go to state 9
+    aya_1_114                      shift and go to state 10
+    aya_2_114                      shift and go to state 11
+    aya_3_114                      shift and go to state 12
+    aya_4_114                      shift and go to state 13
+    aya_5_114                      shift and go to state 14
+    aya_6_114                      shift and go to state 15
+    aya_1_113                      shift and go to state 16
+    aya_2_113                      shift and go to state 17
+    aya_3_113                      shift and go to state 18
+    aya_4_113                      shift and go to state 19
+    aya_5_113                      shift and go to state 20
+    aya_1_111                      shift and go to state 21
+    aya_2_111                      shift and go to state 22
+    aya_3_111                      shift and go to state 23
+    aya_4_111                      shift and go to state 24
+    aya_5_111                      shift and go to state 25
+    sourat_alnass                  shift and go to state 26
+    sourat_alfatiha                shift and go to state 27
+    sourat_alfalak                 shift and go to state 28
+    sourat_almassad                shift and go to state 29
+
+state 1
+
+    (0) S' -> s .
+
+
+
+state 2
+
+    (1) s -> aya .
+
+    $end            reduce using rule 1 (s -> aya .)
+
+
+state 3
+
+    (2) s -> sourat .
+
+    $end            reduce using rule 2 (s -> sourat .)
+
+
+state 4
+
+    (3) aya -> aya_1_1 .
+    (29) sourat_alfatiha -> aya_1_1 . aya_2_1 aya_3_1 aya_4_1 aya_5_1 aya_6_1
+    (34) aya_2_1 -> . Ism_Jalala Ism_Jalala
+
+    $end            reduce using rule 3 (aya -> aya_1_1 .)
+    Ism_Jalala      shift and go to state 39
+
+    aya_2_1                        shift and go to state 38
+
+state 5
+
+    (4) aya -> aya_2_1 .
+
+    $end            reduce using rule 4 (aya -> aya_2_1 .)
+
+
+state 6
+
+    (5) aya -> aya_3_1 .
+
+    $end            reduce using rule 5 (aya -> aya_3_1 .)
+
+
+state 7
+
+    (6) aya -> aya_4_1 .
+
+    $end            reduce using rule 6 (aya -> aya_4_1 .)
+
+
+state 8
+
+    (7) aya -> aya_5_1 .
+
+    $end            reduce using rule 7 (aya -> aya_5_1 .)
+
+
+state 9
+
+    (8) aya -> aya_6_1 .
+
+    $end            reduce using rule 8 (aya -> aya_6_1 .)
+
+
+state 10
+
+    (9) aya -> aya_1_114 .
+    (30) sourat_alnass -> aya_1_114 . aya_2_114 aya_3_114 aya_4_114 aya_5_114 aya_6_114
+    (40) aya_2_114 -> . nom nom
+
+    $end            reduce using rule 9 (aya -> aya_1_114 .)
+    nom             shift and go to state 41
+
+    aya_2_114                      shift and go to state 40
+
+state 11
+
+    (10) aya -> aya_2_114 .
+
+    $end            reduce using rule 10 (aya -> aya_2_114 .)
+
+
+state 12
+
+    (11) aya -> aya_3_114 .
+
+    $end            reduce using rule 11 (aya -> aya_3_114 .)
+
+
+state 13
+
+    (12) aya -> aya_4_114 .
+
+    $end            reduce using rule 12 (aya -> aya_4_114 .)
+
+
+state 14
+
+    (13) aya -> aya_5_114 .
+
+    $end            reduce using rule 13 (aya -> aya_5_114 .)
+
+
+state 15
+
+    (14) aya -> aya_6_114 .
+
+    $end            reduce using rule 14 (aya -> aya_6_114 .)
+
+
+state 16
+
+    (15) aya -> aya_1_113 .
+    (31) sourat_alfalak -> aya_1_113 . aya_2_113 aya_3_113 aya_4_113 aya_5_113
+    (46) aya_2_113 -> . particule nom negation verbe_passe
+
+    $end            reduce using rule 15 (aya -> aya_1_113 .)
+    particule       shift and go to state 43
+
+    aya_2_113                      shift and go to state 42
+
+state 17
+
+    (16) aya -> aya_2_113 .
+
+    $end            reduce using rule 16 (aya -> aya_2_113 .)
+
+
+state 18
+
+    (17) aya -> aya_3_113 .
+
+    $end            reduce using rule 17 (aya -> aya_3_113 .)
+
+
+state 19
+
+    (18) aya -> aya_4_113 .
+
+    $end            reduce using rule 18 (aya -> aya_4_113 .)
+
+
+state 20
+
+    (19) aya -> aya_5_113 .
+
+    $end            reduce using rule 19 (aya -> aya_5_113 .)
+
+
+state 21
+
+    (20) aya -> aya_1_111 .
+    (32) sourat_almassad -> aya_1_111 . aya_2_111 aya_3_111 aya_4_111 aya_5_111
+    (51) aya_2_111 -> . negation verbe_passe particule pronom nom pronom particule negation verbe_passe
+
+    $end            reduce using rule 20 (aya -> aya_1_111 .)
+    negation        shift and go to state 37
+
+    aya_2_111                      shift and go to state 44
+
+state 22
+
+    (21) aya -> aya_2_111 .
+
+    $end            reduce using rule 21 (aya -> aya_2_111 .)
+
+
+state 23
+
+    (22) aya -> aya_3_111 .
+
+    $end            reduce using rule 22 (aya -> aya_3_111 .)
+
+
+state 24
+
+    (23) aya -> aya_4_111 .
+
+    $end            reduce using rule 23 (aya -> aya_4_111 .)
+
+
+state 25
+
+    (24) aya -> aya_5_111 .
+
+    $end            reduce using rule 24 (aya -> aya_5_111 .)
+
+
+state 26
+
+    (25) sourat -> sourat_alnass .
+
+    $end            reduce using rule 25 (sourat -> sourat_alnass .)
+
+
+state 27
+
+    (26) sourat -> sourat_alfatiha .
+
+    $end            reduce using rule 26 (sourat -> sourat_alfatiha .)
+
+
+state 28
+
+    (27) sourat -> sourat_alfalak .
+
+    $end            reduce using rule 27 (sourat -> sourat_alfalak .)
+
+
+state 29
+
+    (28) sourat -> sourat_almassad .
+
+    $end            reduce using rule 28 (sourat -> sourat_almassad .)
+
+
+state 30
+
+    (33) aya_1_1 -> nom . particule Ism_Jalala nom nom
+    (35) aya_3_1 -> nom . nom nom
+    (36) aya_4_1 -> nom . verbe_present particule nom verbe_passe
+    (38) aya_6_1 -> nom . nom verbe_passe particule pronom nom nom particule pronom particule nom nom
+    (40) aya_2_114 -> nom . nom
+
+    particule       shift and go to state 46
+    nom             shift and go to state 45
+    verbe_present   shift and go to state 47
+
+
+state 31
+
+    (42) aya_4_114 -> particule . nom nom nom
+    (44) aya_6_114 -> particule . nom particule nom
+    (46) aya_2_113 -> particule . nom negation verbe_passe
+    (47) aya_3_113 -> particule . particule nom nom nom verbe_passe
+    (48) aya_4_113 -> particule . particule nom nom particule nom
+    (49) aya_5_113 -> particule . particule nom nom nom verbe_passe
+    (53) aya_4_111 -> particule . nom pronom nom nom
+    (54) aya_5_111 -> particule . nom pronom nom particule nom
+
+    nom             shift and go to state 49
+    particule       shift and go to state 48
+
+
+state 32
+
+    (34) aya_2_1 -> Ism_Jalala . Ism_Jalala
+    (41) aya_3_114 -> Ism_Jalala . nom
+
+    Ism_Jalala      shift and go to state 50
+    nom             shift and go to state 51
+
+
+state 33
+
+    (52) aya_3_111 -> verbe_present . nom nom nom
+
+    nom             shift and go to state 52
+
+
+state 34
+
+    (50) aya_1_111 -> verbe_passe . nom nom nom particule verbe_passe
+
+    nom             shift and go to state 53
+
+
+state 35
+
+    (37) aya_5_1 -> verbe_amr . nom nom
+    (39) aya_1_114 -> verbe_amr . verbe_passe particule nom nom
+    (45) aya_1_113 -> verbe_amr . verbe_passe particule nom nom
+
+    nom             shift and go to state 54
+    verbe_passe     shift and go to state 55
+
+
+state 36
+
+    (43) aya_5_114 -> pronom_r . verbe_passe particule nom nom
+
+    verbe_passe     shift and go to state 56
+
+
+state 37
+
+    (51) aya_2_111 -> negation . verbe_passe particule pronom nom pronom particule negation verbe_passe
+
+    verbe_passe     shift and go to state 57
+
+
+state 38
+
+    (29) sourat_alfatiha -> aya_1_1 aya_2_1 . aya_3_1 aya_4_1 aya_5_1 aya_6_1
+    (35) aya_3_1 -> . nom nom nom
+
+    nom             shift and go to state 59
+
+    aya_3_1                        shift and go to state 58
+
+state 39
+
+    (34) aya_2_1 -> Ism_Jalala . Ism_Jalala
+
+    Ism_Jalala      shift and go to state 50
+
+
+state 40
+
+    (30) sourat_alnass -> aya_1_114 aya_2_114 . aya_3_114 aya_4_114 aya_5_114 aya_6_114
+    (41) aya_3_114 -> . Ism_Jalala nom
+
+    Ism_Jalala      shift and go to state 61
+
+    aya_3_114                      shift and go to state 60
+
+state 41
+
+    (40) aya_2_114 -> nom . nom
+
+    nom             shift and go to state 62
+
+
+state 42
+
+    (31) sourat_alfalak -> aya_1_113 aya_2_113 . aya_3_113 aya_4_113 aya_5_113
+    (47) aya_3_113 -> . particule particule nom nom nom verbe_passe
+
+    particule       shift and go to state 64
+
+    aya_3_113                      shift and go to state 63
+
+state 43
+
+    (46) aya_2_113 -> particule . nom negation verbe_passe
+
+    nom             shift and go to state 65
+
+
+state 44
+
+    (32) sourat_almassad -> aya_1_111 aya_2_111 . aya_3_111 aya_4_111 aya_5_111
+    (52) aya_3_111 -> . verbe_present nom nom nom
+
+    verbe_present   shift and go to state 33
+
+    aya_3_111                      shift and go to state 66
+
+state 45
+
+    (35) aya_3_1 -> nom nom . nom
+    (38) aya_6_1 -> nom nom . verbe_passe particule pronom nom nom particule pronom particule nom nom
+    (40) aya_2_114 -> nom nom .
+
+    nom             shift and go to state 67
+    verbe_passe     shift and go to state 68
+    $end            reduce using rule 40 (aya_2_114 -> nom nom .)
+
+
+state 46
+
+    (33) aya_1_1 -> nom particule . Ism_Jalala nom nom
+
+    Ism_Jalala      shift and go to state 69
+
+
+state 47
+
+    (36) aya_4_1 -> nom verbe_present . particule nom verbe_passe
+
+    particule       shift and go to state 70
+
+
+state 48
+
+    (47) aya_3_113 -> particule particule . nom nom nom verbe_passe
+    (48) aya_4_113 -> particule particule . nom nom particule nom
+    (49) aya_5_113 -> particule particule . nom nom nom verbe_passe
+
+    nom             shift and go to state 71
+
+
+state 49
+
+    (42) aya_4_114 -> particule nom . nom nom
+    (44) aya_6_114 -> particule nom . particule nom
+    (46) aya_2_113 -> particule nom . negation verbe_passe
+    (53) aya_4_111 -> particule nom . pronom nom nom
+    (54) aya_5_111 -> particule nom . pronom nom particule nom
+
+    nom             shift and go to state 73
+    particule       shift and go to state 72
+    negation        shift and go to state 74
+    pronom          shift and go to state 75
+
+
+state 50
+
+    (34) aya_2_1 -> Ism_Jalala Ism_Jalala .
+
+    $end            reduce using rule 34 (aya_2_1 -> Ism_Jalala Ism_Jalala .)
+    nom             reduce using rule 34 (aya_2_1 -> Ism_Jalala Ism_Jalala .)
+
+
+state 51
+
+    (41) aya_3_114 -> Ism_Jalala nom .
+
+    $end            reduce using rule 41 (aya_3_114 -> Ism_Jalala nom .)
+    particule       reduce using rule 41 (aya_3_114 -> Ism_Jalala nom .)
+
+
+state 52
+
+    (52) aya_3_111 -> verbe_present nom . nom nom
+
+    nom             shift and go to state 76
+
+
+state 53
+
+    (50) aya_1_111 -> verbe_passe nom . nom nom particule verbe_passe
+
+    nom             shift and go to state 77
+
+
+state 54
+
+    (37) aya_5_1 -> verbe_amr nom . nom
+
+    nom             shift and go to state 78
+
+
+state 55
+
+    (39) aya_1_114 -> verbe_amr verbe_passe . particule nom nom
+    (45) aya_1_113 -> verbe_amr verbe_passe . particule nom nom
+
+    particule       shift and go to state 79
+
+
+state 56
+
+    (43) aya_5_114 -> pronom_r verbe_passe . particule nom nom
+
+    particule       shift and go to state 80
+
+
+state 57
+
+    (51) aya_2_111 -> negation verbe_passe . particule pronom nom pronom particule negation verbe_passe
+
+    particule       shift and go to state 81
+
+
+state 58
+
+    (29) sourat_alfatiha -> aya_1_1 aya_2_1 aya_3_1 . aya_4_1 aya_5_1 aya_6_1
+    (36) aya_4_1 -> . nom verbe_present particule nom verbe_passe
+
+    nom             shift and go to state 83
+
+    aya_4_1                        shift and go to state 82
+
+state 59
+
+    (35) aya_3_1 -> nom . nom nom
+
+    nom             shift and go to state 84
+
+
+state 60
+
+    (30) sourat_alnass -> aya_1_114 aya_2_114 aya_3_114 . aya_4_114 aya_5_114 aya_6_114
+    (42) aya_4_114 -> . particule nom nom nom
+
+    particule       shift and go to state 86
+
+    aya_4_114                      shift and go to state 85
+
+state 61
+
+    (41) aya_3_114 -> Ism_Jalala . nom
+
+    nom             shift and go to state 51
+
+
+state 62
+
+    (40) aya_2_114 -> nom nom .
+
+    Ism_Jalala      reduce using rule 40 (aya_2_114 -> nom nom .)
+
+
+state 63
+
+    (31) sourat_alfalak -> aya_1_113 aya_2_113 aya_3_113 . aya_4_113 aya_5_113
+    (48) aya_4_113 -> . particule particule nom nom particule nom
+
+    particule       shift and go to state 88
+
+    aya_4_113                      shift and go to state 87
+
+state 64
+
+    (47) aya_3_113 -> particule . particule nom nom nom verbe_passe
+
+    particule       shift and go to state 89
+
+
+state 65
+
+    (46) aya_2_113 -> particule nom . negation verbe_passe
+
+    negation        shift and go to state 74
+
+
+state 66
+
+    (32) sourat_almassad -> aya_1_111 aya_2_111 aya_3_111 . aya_4_111 aya_5_111
+    (53) aya_4_111 -> . particule nom pronom nom nom
+
+    particule       shift and go to state 91
+
+    aya_4_111                      shift and go to state 90
+
+state 67
+
+    (35) aya_3_1 -> nom nom nom .
+
+    $end            reduce using rule 35 (aya_3_1 -> nom nom nom .)
+    nom             reduce using rule 35 (aya_3_1 -> nom nom nom .)
+
+
+state 68
+
+    (38) aya_6_1 -> nom nom verbe_passe . particule pronom nom nom particule pronom particule nom nom
+
+    particule       shift and go to state 92
+
+
+state 69
+
+    (33) aya_1_1 -> nom particule Ism_Jalala . nom nom
+
+    nom             shift and go to state 93
+
+
+state 70
+
+    (36) aya_4_1 -> nom verbe_present particule . nom verbe_passe
+
+    nom             shift and go to state 94
+
+
+state 71
+
+    (47) aya_3_113 -> particule particule nom . nom nom verbe_passe
+    (48) aya_4_113 -> particule particule nom . nom particule nom
+    (49) aya_5_113 -> particule particule nom . nom nom verbe_passe
+
+    nom             shift and go to state 95
+
+
+state 72
+
+    (44) aya_6_114 -> particule nom particule . nom
+
+    nom             shift and go to state 96
+
+
+state 73
+
+    (42) aya_4_114 -> particule nom nom . nom
+
+    nom             shift and go to state 97
+
+
+state 74
+
+    (46) aya_2_113 -> particule nom negation . verbe_passe
+
+    verbe_passe     shift and go to state 98
+
+
+state 75
+
+    (53) aya_4_111 -> particule nom pronom . nom nom
+    (54) aya_5_111 -> particule nom pronom . nom particule nom
+
+    nom             shift and go to state 99
+
+
+state 76
+
+    (52) aya_3_111 -> verbe_present nom nom . nom
+
+    nom             shift and go to state 100
+
+
+state 77
+
+    (50) aya_1_111 -> verbe_passe nom nom . nom particule verbe_passe
+
+    nom             shift and go to state 101
+
+
+state 78
+
+    (37) aya_5_1 -> verbe_amr nom nom .
+
+    $end            reduce using rule 37 (aya_5_1 -> verbe_amr nom nom .)
+    nom             reduce using rule 37 (aya_5_1 -> verbe_amr nom nom .)
+
+
+state 79
+
+    (39) aya_1_114 -> verbe_amr verbe_passe particule . nom nom
+    (45) aya_1_113 -> verbe_amr verbe_passe particule . nom nom
+
+    nom             shift and go to state 102
+
+
+state 80
+
+    (43) aya_5_114 -> pronom_r verbe_passe particule . nom nom
+
+    nom             shift and go to state 103
+
+
+state 81
+
+    (51) aya_2_111 -> negation verbe_passe particule . pronom nom pronom particule negation verbe_passe
+
+    pronom          shift and go to state 104
+
+
+state 82
+
+    (29) sourat_alfatiha -> aya_1_1 aya_2_1 aya_3_1 aya_4_1 . aya_5_1 aya_6_1
+    (37) aya_5_1 -> . verbe_amr nom nom
+
+    verbe_amr       shift and go to state 106
+
+    aya_5_1                        shift and go to state 105
+
+state 83
+
+    (36) aya_4_1 -> nom . verbe_present particule nom verbe_passe
+
+    verbe_present   shift and go to state 47
+
+
+state 84
+
+    (35) aya_3_1 -> nom nom . nom
+
+    nom             shift and go to state 67
+
+
+state 85
+
+    (30) sourat_alnass -> aya_1_114 aya_2_114 aya_3_114 aya_4_114 . aya_5_114 aya_6_114
+    (43) aya_5_114 -> . pronom_r verbe_passe particule nom nom
+
+    pronom_r        shift and go to state 36
+
+    aya_5_114                      shift and go to state 107
+
+state 86
+
+    (42) aya_4_114 -> particule . nom nom nom
+
+    nom             shift and go to state 108
+
+
+state 87
+
+    (31) sourat_alfalak -> aya_1_113 aya_2_113 aya_3_113 aya_4_113 . aya_5_113
+    (49) aya_5_113 -> . particule particule nom nom nom verbe_passe
+
+    particule       shift and go to state 110
+
+    aya_5_113                      shift and go to state 109
+
+state 88
+
+    (48) aya_4_113 -> particule . particule nom nom particule nom
+
+    particule       shift and go to state 111
+
+
+state 89
+
+    (47) aya_3_113 -> particule particule . nom nom nom verbe_passe
+
+    nom             shift and go to state 112
+
+
+state 90
+
+    (32) sourat_almassad -> aya_1_111 aya_2_111 aya_3_111 aya_4_111 . aya_5_111
+    (54) aya_5_111 -> . particule nom pronom nom particule nom
+
+    particule       shift and go to state 114
+
+    aya_5_111                      shift and go to state 113
+
+state 91
+
+    (53) aya_4_111 -> particule . nom pronom nom nom
+
+    nom             shift and go to state 115
+
+
+state 92
+
+    (38) aya_6_1 -> nom nom verbe_passe particule . pronom nom nom particule pronom particule nom nom
+
+    pronom          shift and go to state 116
+
+
+state 93
+
+    (33) aya_1_1 -> nom particule Ism_Jalala nom . nom
+
+    nom             shift and go to state 117
+
+
+state 94
+
+    (36) aya_4_1 -> nom verbe_present particule nom . verbe_passe
+
+    verbe_passe     shift and go to state 118
+
+
+state 95
+
+    (47) aya_3_113 -> particule particule nom nom . nom verbe_passe
+    (48) aya_4_113 -> particule particule nom nom . particule nom
+    (49) aya_5_113 -> particule particule nom nom . nom verbe_passe
+
+    nom             shift and go to state 120
+    particule       shift and go to state 119
+
+
+state 96
+
+    (44) aya_6_114 -> particule nom particule nom .
+
+    $end            reduce using rule 44 (aya_6_114 -> particule nom particule nom .)
+
+
+state 97
+
+    (42) aya_4_114 -> particule nom nom nom .
+
+    $end            reduce using rule 42 (aya_4_114 -> particule nom nom nom .)
+    pronom_r        reduce using rule 42 (aya_4_114 -> particule nom nom nom .)
+
+
+state 98
+
+    (46) aya_2_113 -> particule nom negation verbe_passe .
+
+    $end            reduce using rule 46 (aya_2_113 -> particule nom negation verbe_passe .)
+    particule       reduce using rule 46 (aya_2_113 -> particule nom negation verbe_passe .)
+
+
+state 99
+
+    (53) aya_4_111 -> particule nom pronom nom . nom
+    (54) aya_5_111 -> particule nom pronom nom . particule nom
+
+    nom             shift and go to state 122
+    particule       shift and go to state 121
+
+
+state 100
+
+    (52) aya_3_111 -> verbe_present nom nom nom .
+
+    $end            reduce using rule 52 (aya_3_111 -> verbe_present nom nom nom .)
+    particule       reduce using rule 52 (aya_3_111 -> verbe_present nom nom nom .)
+
+
+state 101
+
+    (50) aya_1_111 -> verbe_passe nom nom nom . particule verbe_passe
+
+    particule       shift and go to state 123
+
+
+state 102
+
+    (39) aya_1_114 -> verbe_amr verbe_passe particule nom . nom
+    (45) aya_1_113 -> verbe_amr verbe_passe particule nom . nom
+
+    nom             shift and go to state 124
+
+
+state 103
+
+    (43) aya_5_114 -> pronom_r verbe_passe particule nom . nom
+
+    nom             shift and go to state 125
+
+
+state 104
+
+    (51) aya_2_111 -> negation verbe_passe particule pronom . nom pronom particule negation verbe_passe
+
+    nom             shift and go to state 126
+
+
+state 105
+
+    (29) sourat_alfatiha -> aya_1_1 aya_2_1 aya_3_1 aya_4_1 aya_5_1 . aya_6_1
+    (38) aya_6_1 -> . nom nom verbe_passe particule pronom nom nom particule pronom particule nom nom
+
+    nom             shift and go to state 128
+
+    aya_6_1                        shift and go to state 127
+
+state 106
+
+    (37) aya_5_1 -> verbe_amr . nom nom
+
+    nom             shift and go to state 54
+
+
+state 107
+
+    (30) sourat_alnass -> aya_1_114 aya_2_114 aya_3_114 aya_4_114 aya_5_114 . aya_6_114
+    (44) aya_6_114 -> . particule nom particule nom
+
+    particule       shift and go to state 130
+
+    aya_6_114                      shift and go to state 129
+
+state 108
+
+    (42) aya_4_114 -> particule nom . nom nom
+
+    nom             shift and go to state 73
+
+
+state 109
+
+    (31) sourat_alfalak -> aya_1_113 aya_2_113 aya_3_113 aya_4_113 aya_5_113 .
+
+    $end            reduce using rule 31 (sourat_alfalak -> aya_1_113 aya_2_113 aya_3_113 aya_4_113 aya_5_113 .)
+
+
+state 110
+
+    (49) aya_5_113 -> particule . particule nom nom nom verbe_passe
+
+    particule       shift and go to state 131
+
+
+state 111
+
+    (48) aya_4_113 -> particule particule . nom nom particule nom
+
+    nom             shift and go to state 132
+
+
+state 112
+
+    (47) aya_3_113 -> particule particule nom . nom nom verbe_passe
+
+    nom             shift and go to state 133
+
+
+state 113
+
+    (32) sourat_almassad -> aya_1_111 aya_2_111 aya_3_111 aya_4_111 aya_5_111 .
+
+    $end            reduce using rule 32 (sourat_almassad -> aya_1_111 aya_2_111 aya_3_111 aya_4_111 aya_5_111 .)
+
+
+state 114
+
+    (54) aya_5_111 -> particule . nom pronom nom particule nom
+
+    nom             shift and go to state 134
+
+
+state 115
+
+    (53) aya_4_111 -> particule nom . pronom nom nom
+
+    pronom          shift and go to state 135
+
+
+state 116
+
+    (38) aya_6_1 -> nom nom verbe_passe particule pronom . nom nom particule pronom particule nom nom
+
+    nom             shift and go to state 136
+
+
+state 117
+
+    (33) aya_1_1 -> nom particule Ism_Jalala nom nom .
+
+    Ism_Jalala      reduce using rule 33 (aya_1_1 -> nom particule Ism_Jalala nom nom .)
+    $end            reduce using rule 33 (aya_1_1 -> nom particule Ism_Jalala nom nom .)
+
+
+state 118
+
+    (36) aya_4_1 -> nom verbe_present particule nom verbe_passe .
+
+    $end            reduce using rule 36 (aya_4_1 -> nom verbe_present particule nom verbe_passe .)
+    verbe_amr       reduce using rule 36 (aya_4_1 -> nom verbe_present particule nom verbe_passe .)
+
+
+state 119
+
+    (48) aya_4_113 -> particule particule nom nom particule . nom
+
+    nom             shift and go to state 137
+
+
+state 120
+
+    (47) aya_3_113 -> particule particule nom nom nom . verbe_passe
+    (49) aya_5_113 -> particule particule nom nom nom . verbe_passe
+
+    verbe_passe     shift and go to state 138
+
+
+state 121
+
+    (54) aya_5_111 -> particule nom pronom nom particule . nom
+
+    nom             shift and go to state 139
+
+
+state 122
+
+    (53) aya_4_111 -> particule nom pronom nom nom .
+
+    $end            reduce using rule 53 (aya_4_111 -> particule nom pronom nom nom .)
+    particule       reduce using rule 53 (aya_4_111 -> particule nom pronom nom nom .)
+
+
+state 123
+
+    (50) aya_1_111 -> verbe_passe nom nom nom particule . verbe_passe
+
+    verbe_passe     shift and go to state 140
+
+
+state 124
+
+    (39) aya_1_114 -> verbe_amr verbe_passe particule nom nom .
+    (45) aya_1_113 -> verbe_amr verbe_passe particule nom nom .
+
+  ! reduce/reduce conflict for $end resolved using rule 39 (aya_1_114 -> verbe_amr verbe_passe particule nom nom .)
+    nom             reduce using rule 39 (aya_1_114 -> verbe_amr verbe_passe particule nom nom .)
+    $end            reduce using rule 39 (aya_1_114 -> verbe_amr verbe_passe particule nom nom .)
+    particule       reduce using rule 45 (aya_1_113 -> verbe_amr verbe_passe particule nom nom .)
+
+  ! $end            [ reduce using rule 45 (aya_1_113 -> verbe_amr verbe_passe particule nom nom .) ]
+
+
+state 125
+
+    (43) aya_5_114 -> pronom_r verbe_passe particule nom nom .
+
+    $end            reduce using rule 43 (aya_5_114 -> pronom_r verbe_passe particule nom nom .)
+    particule       reduce using rule 43 (aya_5_114 -> pronom_r verbe_passe particule nom nom .)
+
+
+state 126
+
+    (51) aya_2_111 -> negation verbe_passe particule pronom nom . pronom particule negation verbe_passe
+
+    pronom          shift and go to state 141
+
+
+state 127
+
+    (29) sourat_alfatiha -> aya_1_1 aya_2_1 aya_3_1 aya_4_1 aya_5_1 aya_6_1 .
+
+    $end            reduce using rule 29 (sourat_alfatiha -> aya_1_1 aya_2_1 aya_3_1 aya_4_1 aya_5_1 aya_6_1 .)
+
+
+state 128
+
+    (38) aya_6_1 -> nom . nom verbe_passe particule pronom nom nom particule pronom particule nom nom
+
+    nom             shift and go to state 142
+
+
+state 129
+
+    (30) sourat_alnass -> aya_1_114 aya_2_114 aya_3_114 aya_4_114 aya_5_114 aya_6_114 .
+
+    $end            reduce using rule 30 (sourat_alnass -> aya_1_114 aya_2_114 aya_3_114 aya_4_114 aya_5_114 aya_6_114 .)
+
+
+state 130
+
+    (44) aya_6_114 -> particule . nom particule nom
+
+    nom             shift and go to state 143
+
+
+state 131
+
+    (49) aya_5_113 -> particule particule . nom nom nom verbe_passe
+
+    nom             shift and go to state 144
+
+
+state 132
+
+    (48) aya_4_113 -> particule particule nom . nom particule nom
+
+    nom             shift and go to state 145
+
+
+state 133
+
+    (47) aya_3_113 -> particule particule nom nom . nom verbe_passe
+
+    nom             shift and go to state 146
+
+
+state 134
+
+    (54) aya_5_111 -> particule nom . pronom nom particule nom
+
+    pronom          shift and go to state 147
+
+
+state 135
+
+    (53) aya_4_111 -> particule nom pronom . nom nom
+
+    nom             shift and go to state 148
+
+
+state 136
+
+    (38) aya_6_1 -> nom nom verbe_passe particule pronom nom . nom particule pronom particule nom nom
+
+    nom             shift and go to state 149
+
+
+state 137
+
+    (48) aya_4_113 -> particule particule nom nom particule nom .
+
+    $end            reduce using rule 48 (aya_4_113 -> particule particule nom nom particule nom .)
+    particule       reduce using rule 48 (aya_4_113 -> particule particule nom nom particule nom .)
+
+
+state 138
+
+    (47) aya_3_113 -> particule particule nom nom nom verbe_passe .
+    (49) aya_5_113 -> particule particule nom nom nom verbe_passe .
+
+  ! reduce/reduce conflict for $end resolved using rule 47 (aya_3_113 -> particule particule nom nom nom verbe_passe .)
+    $end            reduce using rule 47 (aya_3_113 -> particule particule nom nom nom verbe_passe .)
+
+  ! $end            [ reduce using rule 49 (aya_5_113 -> particule particule nom nom nom verbe_passe .) ]
+
+
+state 139
+
+    (54) aya_5_111 -> particule nom pronom nom particule nom .
+
+    $end            reduce using rule 54 (aya_5_111 -> particule nom pronom nom particule nom .)
+
+
+state 140
+
+    (50) aya_1_111 -> verbe_passe nom nom nom particule verbe_passe .
+
+    negation        reduce using rule 50 (aya_1_111 -> verbe_passe nom nom nom particule verbe_passe .)
+    $end            reduce using rule 50 (aya_1_111 -> verbe_passe nom nom nom particule verbe_passe .)
+
+
+state 141
+
+    (51) aya_2_111 -> negation verbe_passe particule pronom nom pronom . particule negation verbe_passe
+
+    particule       shift and go to state 150
+
+
+state 142
+
+    (38) aya_6_1 -> nom nom . verbe_passe particule pronom nom nom particule pronom particule nom nom
+
+    verbe_passe     shift and go to state 68
+
+
+state 143
+
+    (44) aya_6_114 -> particule nom . particule nom
+
+    particule       shift and go to state 72
+
+
+state 144
+
+    (49) aya_5_113 -> particule particule nom . nom nom verbe_passe
+
+    nom             shift and go to state 151
+
+
+state 145
+
+    (48) aya_4_113 -> particule particule nom nom . particule nom
+
+    particule       shift and go to state 119
+
+
+state 146
+
+    (47) aya_3_113 -> particule particule nom nom nom . verbe_passe
+
+    verbe_passe     shift and go to state 152
+
+
+state 147
+
+    (54) aya_5_111 -> particule nom pronom . nom particule nom
+
+    nom             shift and go to state 153
+
+
+state 148
+
+    (53) aya_4_111 -> particule nom pronom nom . nom
+
+    nom             shift and go to state 122
+
+
+state 149
+
+    (38) aya_6_1 -> nom nom verbe_passe particule pronom nom nom . particule pronom particule nom nom
+
+    particule       shift and go to state 154
+
+
+state 150
+
+    (51) aya_2_111 -> negation verbe_passe particule pronom nom pronom particule . negation verbe_passe
+
+    negation        shift and go to state 155
+
+
+state 151
+
+    (49) aya_5_113 -> particule particule nom nom . nom verbe_passe
+
+    nom             shift and go to state 156
+
+
+state 152
+
+    (47) aya_3_113 -> particule particule nom nom nom verbe_passe .
+
+    particule       reduce using rule 47 (aya_3_113 -> particule particule nom nom nom verbe_passe .)
+
+
+state 153
+
+    (54) aya_5_111 -> particule nom pronom nom . particule nom
+
+    particule       shift and go to state 121
+
+
+state 154
+
+    (38) aya_6_1 -> nom nom verbe_passe particule pronom nom nom particule . pronom particule nom nom
+
+    pronom          shift and go to state 157
+
+
+state 155
+
+    (51) aya_2_111 -> negation verbe_passe particule pronom nom pronom particule negation . verbe_passe
+
+    verbe_passe     shift and go to state 158
+
+
+state 156
+
+    (49) aya_5_113 -> particule particule nom nom nom . verbe_passe
+
+    verbe_passe     shift and go to state 159
+
+
+state 157
+
+    (38) aya_6_1 -> nom nom verbe_passe particule pronom nom nom particule pronom . particule nom nom
+
+    particule       shift and go to state 160
+
+
+state 158
+
+    (51) aya_2_111 -> negation verbe_passe particule pronom nom pronom particule negation verbe_passe .
+
+    $end            reduce using rule 51 (aya_2_111 -> negation verbe_passe particule pronom nom pronom particule negation verbe_passe .)
+    verbe_present   reduce using rule 51 (aya_2_111 -> negation verbe_passe particule pronom nom pronom particule negation verbe_passe .)
+
+
+state 159
+
+    (49) aya_5_113 -> particule particule nom nom nom verbe_passe .
+
+    $end            reduce using rule 49 (aya_5_113 -> particule particule nom nom nom verbe_passe .)
+
+
+state 160
+
+    (38) aya_6_1 -> nom nom verbe_passe particule pronom nom nom particule pronom particule . nom nom
+
+    nom             shift and go to state 161
+
+
+state 161
+
+    (38) aya_6_1 -> nom nom verbe_passe particule pronom nom nom particule pronom particule nom . nom
+
+    nom             shift and go to state 162
+
+
+state 162
+
+    (38) aya_6_1 -> nom nom verbe_passe particule pronom nom nom particule pronom particule nom nom .
+
+    $end            reduce using rule 38 (aya_6_1 -> nom nom verbe_passe particule pronom nom nom particule pronom particule nom nom .)
+
+WARNING: 
+WARNING: Conflicts:
+WARNING: 
+WARNING: reduce/reduce conflict in state 124 resolved using rule (aya_1_114 -> verbe_amr verbe_passe particule nom nom)
+WARNING: rejected rule (aya_1_113 -> verbe_amr verbe_passe particule nom nom) in state 124
+WARNING: reduce/reduce conflict in state 138 resolved using rule (aya_3_113 -> particule particule nom nom nom verbe_passe)
+WARNING: rejected rule (aya_5_113 -> particule particule nom nom nom verbe_passe) in state 138
