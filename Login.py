@@ -28,7 +28,7 @@ def error_destroy():
 def open():
     print("Login Success")
     root.destroy()
-    os.system('python GUI.py')
+    os.system('python Checker.py')
 
 def signin():
     username = user.get()

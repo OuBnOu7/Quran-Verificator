@@ -1,0 +1,33 @@
+Date : 2022-12-27 22:16:48
+Directory : c:\Users\Omar Bnh\Desktop\Compilateur-Quran\Quran-Verificator
+Total : 7 files,  814 codes, 178 comments, 150 blanks, all 1142 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Python   |          5 |        790 |        148 |        134 |      1,072 |
+| SQL      |          1 |         22 |         30 |         15 |         67 |
+| Markdown |          1 |          2 |          0 |          1 |          3 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                      | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                         |          7 |        814 |        178 |        150 |      1,142 |
++---------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                  | language | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| c:\Users\Omar Bnh\Desktop\Compilateur-Quran\Quran-Verificator\Checker.py  | Python   |        283 |         72 |         50 |        405 |
+| c:\Users\Omar Bnh\Desktop\Compilateur-Quran\Quran-Verificator\Login.py    | Python   |         85 |          3 |         17 |        105 |
+| c:\Users\Omar Bnh\Desktop\Compilateur-Quran\Quran-Verificator\Parser.py   | Python   |        301 |         64 |         44 |        409 |
+| c:\Users\Omar Bnh\Desktop\Compilateur-Quran\Quran-Verificator\README.md   | Markdown |          2 |          0 |          1 |          3 |
+| c:\Users\Omar Bnh\Desktop\Compilateur-Quran\Quran-Verificator\lexer.py    | Python   |         47 |          6 |         15 |         68 |
+| c:\Users\Omar Bnh\Desktop\Compilateur-Quran\Quran-Verificator\logindb.sql | SQL      |         22 |         30 |         15 |         67 |
+| c:\Users\Omar Bnh\Desktop\Compilateur-Quran\Quran-Verificator\parsetab.py | Python   |         74 |          3 |          8 |         85 |
+| Total                                                                     |          |        814 |        178 |        150 |      1,142 |
++---------------------------------------------------------------------------+----------+------------+------------+------------+------------+
