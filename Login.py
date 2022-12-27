@@ -3,6 +3,9 @@ from tkinter import messagebox
 import tkinter.filedialog
 import os
 import sys
+import mysql.connector
+import time
+
 pyexec = sys.executable
 root=Tk()
 root.title('Login')
@@ -10,13 +13,46 @@ root.geometry('925x500+300+200')
 root.configure(bg="#fff")
 root.resizable(False,False)
 
+def error():
+    global err
+    err = Toplevel(root)
+    err.title("Error")
+    err.geometry("200x100")
+    Label(err,text="All fields are required..",fg="red",font="bold").pack()
+    Label(err,text="").pack()
+    Button(err,text="Ok",bg="grey",width=8,height=1,command=error_destroy).pack()
+
+def error_destroy():
+    err.destroy()
+
 def open():
     print("Login Success")
     root.destroy()
     os.system('python GUI.py')
 
 def signin():
-    open()
+    username = user.get()
+    password = passwd.get()
+    print(f"The name entered by you is ",username)
+    db = mysql.connector.connect(host ="localhost",
+    user = "root",
+    db ="logindb")
+    cursor = db.cursor()
+    if username == "":
+        error()
+    elif password == "":
+        error()
+    else:
+        sql = "select * from usertable where username = %s and password = %s"
+        cursor.execute(sql,[(username),(password)])
+        results = cursor.fetchall()
+        if results:
+            for i in results:
+                open()
+                break
+        else:
+            error()
+            
 
 
 img=PhotoImage(file='images.png')
