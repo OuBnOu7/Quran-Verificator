@@ -81,6 +81,7 @@ def p_aya_1_1(p):
     if toString(p) == "الحمد لله رب العالمين".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("الحمد لله رب العالمين","\n") 
+        print("Praise be to Allah, the Cherisher and Sustainer of the worlds;","\n") 
     else:
         print("- Al-Aya Est Coraniquement INCORRECTE")
         print("Correction :")
@@ -95,6 +96,7 @@ def p_aya_2_1(p):
     if toString(p) == "الرحمن الرحيم".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("الرحمن الرحيم","\n") 
+        print("Most Gracious, Most Merciful;","\n") 
     else:
         print("- Al-Aya Est Coraniquement INCORRECTE")
         print("Correction :")
@@ -109,6 +111,7 @@ def p_aya_3_1(p):
     if toString(p) == "مالك يوم الدين".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("مالك يوم الدين","\n") 
+        print("Master of the Day of Judgment.","\n") 
     else:
         print("- Al-Aya Est Coraniquement INCORRECTE")
         print("Correction :")
@@ -123,6 +126,7 @@ def p_aya_4_1(p):
     if toString(p) == "إياك نعبد وإياك نستعين".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("إياك نعبد وإياك نستعين","\n") 
+        print("Thee do we worship, and Thine aid we seek.","\n") 
     else:
         print("- Al-Aya Est Coraniquement INCORRECTE")
         print("Correction :")
@@ -137,6 +141,7 @@ def p_aya_5_1(p):
     if toString(p) == "اهدنا الصراط المستقيم".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("اهدنا الصراط المستقيم","\n") 
+        print("Show us the straight way,","\n") 
     else:
         print("- Al-Aya Est Coraniquement INCORRECTE")
         print("Correction :")
@@ -151,6 +156,7 @@ def p_aya_6_1(p):
     if toString(p) == "صراط الذين أنعمت عليهم غير المغضوب عليهم ولا الضالين".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("صراط الذين أنعمت عليهم غير المغضوب عليهم ولا الضالين","\n") 
+        print("The way of those on whom Thou hast bestowed Thy Grace, those whose (portion) is not wrath, and who go not astray.","\n") 
     else:
         print("- Al-Aya Est Coraniquement INCORRECTE")
         print("Correction :")
@@ -169,6 +175,7 @@ def p_aya_1_114(p):
     if toString(p) == "قل أعوذ برب الناس".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("قل أعوذ برب الناس","\n") 
+        print("Say: I seek refuge with the Lord and Cherisher of Mankind,","\n") 
     else:
         print("- Al-Aya Est Coraniquement INCORRECTE")
         print("Correction :")
@@ -183,6 +190,7 @@ def p_aya_2_114(p):
     if toString(p) == "ملك الناس".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("ملك الناس","\n") 
+        print("The King (or Ruler) of Mankind,","\n") 
     else:
         print("- Al-Aya Est Coraniquement INCORRECTE")
         print("Correction :")
@@ -197,6 +205,7 @@ def p_aya_3_114(p):
     if toString(p) == "إله الناس".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("إله الناس","\n") 
+        print("The god (or judge) of Mankind,-","\n") 
     else:
         print("- Al-Aya Est Coraniquement INCORRECTE")
         print("Correction :")
@@ -211,6 +220,7 @@ def p_aya_4_114(p):
     if toString(p) == "من شر الوسواس الخناس".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("من شر الوسواس الخناس","\n") 
+        print("From the mischief of the Whisperer (of Evil), who withdraws (after his whisper),-","\n") 
     else:
         print("- Al-Aya Est Coraniquement INCORRECTE")
         print("Correction :")
@@ -225,6 +235,7 @@ def p_aya_5_114(p):
     if toString(p) == "الذي يوسوس في صدور الناس".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("الذي يوسوس في صدور الناس","\n") 
+        print("(The same) who whispers into the hearts of Mankind,-","\n") 
     else:
         print("- Al-Aya Est Coraniquement INCORRECTE")
         print("Correction :")
@@ -239,6 +250,7 @@ def p_aya_6_114(p):
     if toString(p) == "من الجنة والناس".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("من الجنة والناس","\n")     
+        print("Among Jinns and among men.","\n")     
     else:
         print("- Al-Aya Est Coraniquement INCORRECTE")
         print("Correction :")
@@ -257,6 +269,7 @@ def p_aya_1_113(p):
     if toString(p) == "قل أعوذ برب الفلق".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("قل أعوذ برب الفلق","\n")  
+        print("Say: I seek refuge with the Lord of the Dawn","\n")  
     else:
         print("- Al-Aya Est Coraniquement INCORRECTE")
         print("Correction :")
@@ -271,6 +284,7 @@ def p_aya_2_113(p):
     if toString(p) == "من شر ما خلق".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("من شر ما خلق","\n")  
+        print("From the mischief of created things;","\n")  
     else:
         print("- Al-Aya Est Coraniquement INCORRECTE")
         print("Correction :")
@@ -285,6 +299,7 @@ def p_aya_3_113(p):
     if toString(p) == "ومن شر غاسق إذا وقب".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("ومن شر غاسق إذا وقب","\n")  
+        print("From the mischief of Darkness as it overspreads;","\n")  
     else:
         print("- Al-Aya Est Coraniquement INCORRECTE")
         print("Correction :")
@@ -299,6 +314,7 @@ def p_aya_4_113(p):
     if toString(p) == "ومن شر النفاثات في العقد".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("ومن شر النفاثات في العقد","\n")  
+        print("From the mischief of those who practise secret arts;","\n")  
     else:
         print("- Al-Aya Est Coraniquement INCORRECTE")
         print("Correction :")
@@ -313,6 +329,7 @@ def p_aya_5_113(p):
     if toString(p) == "ومن شر حاسد إذا حسد".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("ومن شر حاسد إذا حسد","\n")  
+        print("And from the mischief of the envious one as he practises envy.","\n")  
     else:
         print("- Al-Aya Est Coraniquement INCORRECTE")
         print("Correction :")
@@ -331,6 +348,7 @@ def p_aya_1_111(p):
     if toString(p) == "تبت يدا أبي لهب وتب".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("تبت يدا أبي لهب وتب","\n")  
+        print("Perish the hands of the Father of Flame! Perish he!","\n")  
     else:
         print("- Al-Aya Est Coraniquement INCORRECTE")
         print("Correction :")
@@ -345,6 +363,7 @@ def p_aya_2_111(p):
     if toString(p) == "ما أغنى عنه ماله وما كسب".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("ما أغنى عنه ماله وما كسب","\n") 
+        print("No profit to him from all his wealth, and all his gains!","\n") 
     else:
         print("- Al-Aya Est Coraniquement INCORRECTE")
         print("Correction :")
@@ -359,6 +378,7 @@ def p_aya_3_111(p):
     if toString(p) == "سيصلى نارا ذات لهب".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("سيصلى نارا ذات لهب","\n")  
+        print("Burnt soon will he be in a Fire of Blazing Flame!","\n")  
     else:
         print("- Al-Aya Est Coraniquement INCORRECTE")
         print("Correction :")
@@ -373,6 +393,7 @@ def p_aya_4_111(p):
     if toString(p) == "وامرأته حمالة الحطب".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("وامرأته حمالة الحطب","\n")  
+        print("His wife shall carry the (crackling) wood - As fuel!-","\n")  
     else:
         print("- Al-Aya Est Coraniquement INCORRECTE")
         print("Correction :")
@@ -387,6 +408,7 @@ def p_aya_5_111(p):
     if toString(p) == "في جيد ها حبل من مسد".replace(" ", ""):
         print("- Al-Aya Est Coraniquement Correct :")
         print("في جيد ها حبل من مسد","\n")
+        print("A twisted rope of palm-leaf fibre round her (own) neck!","\n")
     else:
         print("- Al-Aya Est Coraniquement INCORRECTE")
         print("Correction :")
