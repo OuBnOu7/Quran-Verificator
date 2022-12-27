@@ -1,0 +1,110 @@
+Created by PLY version 3.11 (http://www.dabeaz.com/ply)
+
+Unused terminals:
+
+    nom_defini
+    pronom_d
+
+Grammar
+
+Rule 0     S' -> s
+Rule 1     s -> aya
+Rule 2     s -> sourat
+Rule 3     aya -> aya_1_1
+Rule 4     aya -> aya_2_1
+Rule 5     aya -> aya_3_1
+Rule 6     aya -> aya_4_1
+Rule 7     aya -> aya_5_1
+Rule 8     aya -> aya_6_1
+Rule 9     aya -> aya_1_114
+Rule 10    aya -> aya_2_114
+Rule 11    aya -> aya_3_114
+Rule 12    aya -> aya_4_114
+Rule 13    aya -> aya_5_114
+Rule 14    aya -> aya_6_114
+Rule 15    aya -> aya_1_113
+Rule 16    aya -> aya_2_113
+Rule 17    aya -> aya_3_113
+Rule 18    aya -> aya_4_113
+Rule 19    aya -> aya_5_113
+Rule 20    aya -> aya_1_111
+Rule 21    aya -> aya_2_111
+Rule 22    aya -> aya_3_111
+Rule 23    aya -> aya_4_111
+Rule 24    aya -> aya_5_111
+Rule 25    sourat -> sourat_alnass
+Rule 26    sourat -> sourat_alfatiha
+Rule 27    sourat -> sourat_alfalak
+Rule 28    sourat -> sourat_almassad
+Rule 29    sourat_alfatiha -> aya_1_1 aya_2_1 aya_3_1 aya_4_1 aya_5_1 aya_6_1
+Rule 30    sourat_alnass -> aya_1_114 aya_2_114 aya_3_114 aya_4_114 aya_5_114 aya_6_114
+Rule 31    sourat_alfalak -> aya_1_113 aya_2_113 aya_3_113 aya_4_113 aya_5_113
+Rule 32    sourat_almassad -> aya_1_111 aya_2_111 aya_3_111 aya_4_111 aya_5_111
+Rule 33    aya_1_1 -> mot particule Ism_Jalala mot mot
+Rule 34    aya_2_1 -> Ism_Jalala Ism_Jalala
+Rule 35    aya_3_1 -> mot mot mot
+Rule 36    aya_4_1 -> mot verbe_present particule mot verbe_passe
+Rule 37    aya_5_1 -> verbe_amr mot mot
+Rule 38    aya_6_1 -> mot mot verbe_passe particule pronom mot mot particule pronom particule mot mot
+Rule 39    aya_1_114 -> verbe_amr verbe_passe particule mot mot
+Rule 40    aya_2_114 -> mot mot
+Rule 41    aya_3_114 -> Ism_Jalala mot
+Rule 42    aya_4_114 -> particule mot mot mot
+Rule 43    aya_5_114 -> pronom_r verbe_passe particule mot mot
+Rule 44    aya_6_114 -> particule mot particule mot
+Rule 45    aya_1_113 -> verbe_amr verbe_passe particule mot mot
+Rule 46    aya_2_113 -> particule mot negation verbe_passe
+Rule 47    aya_3_113 -> particule particule mot mot mot verbe_passe
+Rule 48    aya_4_113 -> particule particule mot mot particule mot
+Rule 49    aya_5_113 -> particule particule mot mot mot verbe_passe
+Rule 50    aya_1_111 -> verbe_passe mot mot mot particule verbe_passe
+Rule 51    aya_4_111 -> particule mot pronom mot mot
+Rule 52    aya_5_111 -> particule mot pronom mot particule mot
+
+Terminals, with rules where they appear
+
+Ism_Jalala           : 33 34 34 41
+error                : 
+mot                  : 33 33 33 35 35 35 36 36 37 37 38 38 38 38 38 38 39 39 40 40 41 42 42 42 43 43 44 44 45 45 46 47 47 47 48 48 48 49 49 49 50 50 50 51 51 51 52 52 52
+negation             : 46
+nom_defini           : 
+particule            : 33 36 38 38 38 39 42 43 44 44 45 46 47 47 48 48 48 49 49 50 51 52 52
+pronom               : 38 38 51 52
+pronom_d             : 
+pronom_r             : 43
+verbe_amr            : 37 39 45
+verbe_passe          : 36 38 39 43 45 46 47 49 50 50
+verbe_present        : 36
+
+Nonterminals, with rules where they appear
+
+aya                  : 1
+aya_1_1              : 3 29
+aya_1_111            : 20 32
+aya_1_113            : 15 31
+aya_1_114            : 9 30
+aya_2_1              : 4 29
+aya_2_111            : 21 32
+aya_2_113            : 16 31
+aya_2_114            : 10 30
+aya_3_1              : 5 29
+aya_3_111            : 22 32
+aya_3_113            : 17 31
+aya_3_114            : 11 30
+aya_4_1              : 6 29
+aya_4_111            : 23 32
+aya_4_113            : 18 31
+aya_4_114            : 12 30
+aya_5_1              : 7 29
+aya_5_111            : 24 32
+aya_5_113            : 19 31
+aya_5_114            : 13 30
+aya_6_1              : 8 29
+aya_6_114            : 14 30
+s                    : 0
+sourat               : 2
+sourat_alfalak       : 27
+sourat_alfatiha      : 26
+sourat_almassad      : 28
+sourat_alnass        : 25
+
