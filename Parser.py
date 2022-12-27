@@ -1,6 +1,7 @@
 import ply.yacc as yacc
 from lexer import tokens
 from pyarabic import *
+from lexer import data
 
 #Fonction Pour Recuperer L'expression sour fromat String
 def toString(x):
@@ -403,5 +404,5 @@ def p_error(p):
 #"تبت يدا أبي لهب وتب ما أغنى عنه ماله وما كسب سيصلى نارا ذات لهب وامرأته حمالة الحطب في جيدها حبل من مسد"
 
 parser = yacc.yacc()
-res = parser.parse("تبت يدا أبي لهب وتب ما أغنى عنه ماله وما كسب سيصلى نارا ذات لهب وامرأته حمالة الحطب في جيدها حبل من مسد")
+res = parser.parse(data)
 print(res)          
